@@ -1,0 +1,13 @@
+.gym-trainers {
+    margin-top: 150px;
+    padding-bottom: 60px;
+    &__team {
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 48px;
+    }
+}

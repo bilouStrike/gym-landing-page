@@ -1,0 +1,26 @@
+.reasons-join {
+    padding-bottom: 250px;
+    &__detail {
+        margin-top: 100px;
+        row-gap: 80px;
+    }
+    &__title {
+        margin-top: 20%;
+        font-size: 48px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .reasons-join {
+        padding-bottom: 50px;
+        &__detail {
+            margin-top: 60px;
+            row-gap: 30px;
+        }
+        &__title {
+            margin-top: 30%;
+            text-align: center;
+            font-size: 32px;
+        }
+    }
+}

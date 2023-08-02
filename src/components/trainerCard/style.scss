@@ -1,0 +1,19 @@
+.gym-trainers {
+    &__item {
+        display: flex;
+        flex-direction: column;
+        background-color: #222222;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        @media only screen and (max-width: 700px) {
+            margin-top: 15px;
+        }
+        
+        h3 {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 15px;
+        }
+    }
+}

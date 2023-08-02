@@ -1,0 +1,13 @@
+.gym-infoBox {
+    display: flex;
+    gap: 30px;
+}
+
+.gym-infoBox__description {
+    display: flex;
+    flex-direction: column;
+}
+
+.gym-infoBox__description p {
+    margin-top: 8px;
+}

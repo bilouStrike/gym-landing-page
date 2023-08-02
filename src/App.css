@@ -1,0 +1,74 @@
+:root {
+  --primary-fc: #ffffff;
+  --primary-bg: #000000;
+  --primary-light: #222222;
+  --seconday-fc: #FAFF00;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: var(--primary-fc);
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-fc);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+}
+
+.container {
+  --max-width:1170px ;
+  --padding: 1rem;
+  width: min(var(--max-width), 100% - var(--padding) * 2);
+  margin-inline: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.col-1 {
+  width: 100%;
+}
+
+.col-2 {
+  width: 46%;
+}
+
+.col-3 {
+  flex: 1 1 30%;
+}
+
+.col-4 {
+  width: 23%;
+}
+
+.col-6 {
+  flex: 1 1 45%;
+}
+
+@media only screen and (max-width: 700px) {
+.col-2,.col-3,.col-4,.col-6 {
+    width: 100%;
+  }
+}
